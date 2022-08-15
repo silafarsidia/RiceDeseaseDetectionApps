@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Rice Desease Detection App</string>
 
-<!--    SPLASH SCREEN-->
+    <!--    SPLASH SCREEN-->
     <string name="splash_screen_title1">RICE DISEASE</string>
     <string name="splash_screen_title2">DETECTION</string>
     <string name="splash_screen_description">Aplikasi Pendeteksi\nPenyakit Pada Tanaman Padi</string>
 
-<!--    MAIN ACTIVITY SCREEN-->
+    <!--    MAIN ACTIVITY SCREEN-->
     <string name="main_screen_btn1">MULAI DETEKSI</string>
     <string name="main_screen_btn2">INFORMASI PENYAKIT</string>
+    <string name="main_screen_btn3">TENTANG APLIKASI</string>
 </resources>
