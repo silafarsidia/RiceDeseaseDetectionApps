@@ -7,5 +7,6 @@
     <string name="splash_screen_description">Aplikasi Pendeteksi\nPenyakit Pada Tanaman Padi</string>
 
 <!--    MAIN ACTIVITY SCREEN-->
-    <string name="main_screen_btn1">"MULAI DETEKSI</string>
+    <string name="main_screen_btn1">MULAI DETEKSI</string>
+    <string name="main_screen_btn2">INFORMASI PENYAKIT</string>
 </resources>
