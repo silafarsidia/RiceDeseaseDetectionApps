@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
 <!--    CUSTOM COLOR -->
-    <color name="green">#213D27</color>
+    <color name="green_21">#213D27</color>
+    <color name="green_36">#365A52</color>
 </resources>

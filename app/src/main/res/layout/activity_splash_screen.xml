@@ -35,7 +35,7 @@
         android:fontFamily="@font/poppins_extra_bold"
         android:gravity="center"
         android:text="@string/splash_screen_title1"
-        android:textColor="@color/green"
+        android:textColor="@color/green_21"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="@id/bg_rectangle"
         app:layout_constraintEnd_toEndOf="@id/bg_rectangle"
