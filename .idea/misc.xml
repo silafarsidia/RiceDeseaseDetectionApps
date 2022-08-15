@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/muwaf/AndroidStudioProjects/RiceDeseaseDetectionApp/app/src/main/res/drawable/bg_rectangle.xml" value="0.184" />
         <entry key="..\:/Users/muwaf/AndroidStudioProjects/RiceDeseaseDetectionApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/muwaf/AndroidStudioProjects/RiceDeseaseDetectionApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/muwaf/AndroidStudioProjects/RiceDeseaseDetectionApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
       </map>
     </option>
   </component>
