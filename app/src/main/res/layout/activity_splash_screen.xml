@@ -21,7 +21,7 @@
         android:id="@+id/bg_rectangle"
         android:layout_width="253dp"
         android:layout_height="43dp"
-        android:src="@drawable/bg_rectangle"
+        android:src="@drawable/bg_rectangle_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
