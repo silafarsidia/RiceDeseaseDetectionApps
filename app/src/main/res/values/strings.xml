@@ -11,7 +11,7 @@
     <string name="main_screen_btn2">INFORMASI PENYAKIT</string>
     <string name="main_screen_btn3">TENTANG APLIKASI</string>
 
-<!--    DETECTION ACTIVITY SCREEN-->
+    <!--    DETECTION ACTIVITY SCREEN-->
     <string name="taking_picture">Ambil Gambar</string>
     <string name="image">IMAGE</string>
     <string name="type_of_disease">Jenis Penyakit : </string>
