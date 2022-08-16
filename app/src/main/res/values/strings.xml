@@ -16,4 +16,9 @@
     <string name="image">IMAGE</string>
     <string name="type_of_disease">Jenis Penyakit : </string>
     <string name="control_info">Info Pengendalian : </string>
+
+<!--    INFORMATION ACTIVITY SCREEN-->
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="control">Cara Pengendalian :</string>
 </resources>
