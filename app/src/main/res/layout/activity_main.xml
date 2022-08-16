@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/bg_rice"/>
+        android:src="@drawable/bg_rice"
+        android:contentDescription="@string/desc_bg"/>
 
     <Button
         android:id="@+id/btn_start_detection"
@@ -67,7 +68,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_about"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_about"
+        android:contentDescription="@string/desc_bg_title"/>
 
     <TextView
         android:id="@+id/txt_title1"
