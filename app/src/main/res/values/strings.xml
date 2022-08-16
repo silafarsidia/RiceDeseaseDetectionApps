@@ -21,4 +21,10 @@
     <string name="title">title</string>
     <string name="description">description</string>
     <string name="control">Cara Pengendalian :</string>
+
+<!--    DECRIPTION-->
+    <string name="desc_bg">Background picture</string>
+    <string name="desc_title">Title background white</string>
+    <string name="desc_bg_about">About background</string>
+    <string name="desc_bg_title">Title Background green</string>
 </resources>
