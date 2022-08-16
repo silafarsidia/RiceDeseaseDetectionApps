@@ -120,7 +120,7 @@
                 app:layout_constraintTop_toBottomOf="@id/bg_picture"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:src="@drawable/bg_btn_enabled"/>
+                android:src="@drawable/bg_btn_disabled"/>
 
             <TextView
                 android:layout_width="wrap_content"
