@@ -27,4 +27,5 @@
     <string name="desc_title">Title background white</string>
     <string name="desc_bg_about">About background</string>
     <string name="desc_bg_title">Title Background green</string>
+    <string name="desc_preview_image">Preview image</string>
 </resources>

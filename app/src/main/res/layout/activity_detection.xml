@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/bg_rice"/>
+        android:src="@drawable/bg_rice"
+        android:contentDescription="@string/desc_bg"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,7 +38,8 @@
                 android:layout_marginTop="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/desc_title"/>
 
             <TextView
                 android:id="@+id/txt_title1"
@@ -74,7 +76,8 @@
                 app:layout_constraintTop_toBottomOf="@id/txt_title2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:src="@drawable/bg_rectangle_green_36"/>
+                android:src="@drawable/bg_rectangle_green_36"
+                android:contentDescription="@string/desc_bg_title"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -100,7 +103,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:src="@drawable/ic_image"
-                android:background="@color/white"/>
+                android:background="@color/white"
+                android:contentDescription="@string/desc_preview_image"/>
 
             <Button
                 android:id="@+id/btn1"
@@ -124,7 +128,8 @@
                 app:layout_constraintTop_toBottomOf="@id/btn1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:src="@drawable/bg_rectangle_textlines"/>
+                android:src="@drawable/bg_rectangle_textlines"
+                android:contentDescription="@string/desc_bg"/>
 
             <TextView
                 android:id="@+id/txt_type_of_disease"
