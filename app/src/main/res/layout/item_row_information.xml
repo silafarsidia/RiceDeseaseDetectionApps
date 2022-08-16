@@ -12,7 +12,8 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/plant_img"/>
+        android:src="@drawable/plant_img"
+        android:contentDescription="@string/desc_detail_image"/>
 
     <TextView
         android:id="@+id/txt_title_disease"
