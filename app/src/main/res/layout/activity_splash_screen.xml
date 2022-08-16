@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/splash_screen"/>
+        android:src="@drawable/splash_screen"
+        android:contentDescription="@string/desc_bg"/>
 
     <ImageView
         android:id="@+id/bg_rectangle"
@@ -26,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.468"
+        android:contentDescription="@string/desc_bg_title"/>
 
     <TextView
         android:id="@+id/txt_title1"
