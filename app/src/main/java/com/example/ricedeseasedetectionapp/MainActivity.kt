@@ -1,5 +1,6 @@
 package com.example.ricedeseasedetectionapp
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -25,5 +26,21 @@ class MainActivity : AppCompatActivity() {
         }
 
         supportActionBar?.hide()
+
+        itemOnClickListener()
+    }
+
+    private fun itemOnClickListener() {
+        binding.btnStartDetection.setOnClickListener {
+            startActivity(Intent(this, DetectionActivity::class.java))
+        }
+
+        binding.btnInformation.setOnClickListener {
+            startActivity(Intent(this, InformationActivity::class.java))
+        }
+
+        binding.btnAbout.setOnClickListener {
+            startActivity(Intent(this, InformationActivity::class.java))
+        }
     }
 }
