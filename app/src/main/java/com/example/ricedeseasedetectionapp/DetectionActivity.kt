@@ -49,7 +49,6 @@ class DetectionActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
     }
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetectionBinding.inflate(layoutInflater)
@@ -70,8 +69,12 @@ class DetectionActivity : AppCompatActivity() {
     }
 
     private fun itemOnClickListener(){
-        binding.btn1.setOnClickListener {
+        binding.btnCapture.setOnClickListener {
             startTakePhoto()
+        }
+
+        binding.btn1.setOnClickListener {
+            Toast.makeText(this, "Under Development", Toast.LENGTH_SHORT).show()
         }
     }
 
