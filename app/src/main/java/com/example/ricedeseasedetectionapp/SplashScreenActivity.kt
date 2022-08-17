@@ -1,8 +1,10 @@
 package com.example.ricedeseasedetectionapp
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.WindowManager
 import com.example.ricedeseasedetectionapp.databinding.ActivitySplashScreenBinding
 
@@ -26,5 +28,11 @@ class SplashScreenActivity : AppCompatActivity() {
         }
 
         supportActionBar?.hide()
+
+        Handler().postDelayed({
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 2000)
     }
 }
